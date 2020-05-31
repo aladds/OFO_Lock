@@ -3,6 +3,8 @@ Reprogram an OFO bike lock to unlock with a numeric code
 
 Since the OFO company are gone in the english-speaking world (and many others) since 2018, and there are a few bikes still around, it seems a shame that they were going unused.
 
+Disclaimer: The bicycle I have access to was legally acquired, yet I still attempted to contact the company after doing so. They did not respond.
+
 Sadly many of them have been trashed or disposed of, but occasionally you come across an example which is usable (via. purchase or another means). Thankfully there are some resources out there helping keep them going: https://bikesharemuseum.com/fix-an-ofo-bicycle/
 
 I took particular interest in the lock, since it's got to have at least Bluetooth, GPS and 2G for connectivity.
