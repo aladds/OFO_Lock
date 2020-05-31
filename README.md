@@ -21,9 +21,9 @@ Now you need to disconnect the leads connecting the top and bottom halves of the
 
 On the PCB are connectors for the St-LinkV2 debugger - SWCLK and SWDIO - you just need to connect these to your debugger, along with GND and 3.3v power - remember the battery lead? Connect that there. 
 
-Then load up openocd on your PC. At this point, if you’re keen, you can do something like <this - link to vulnerability> to download the old firmware to your machine for analysis. I’ve done that <here>.
+Then load up openocd on your PC. At this point, if you’re keen, you can do something like https://www.optiv.com/blog/automated-unlocking-nrf51-series-socs-nrfsec to download the old firmware to your machine for analysis. I’ve done that (manually) and it works - so I could restore this lock to factory settings if I wanted to.
 
-But I just did:
+But I just did this in openocd:
 
 nrf51 bulk_erase
 
@@ -42,3 +42,7 @@ With these together I wrote the enclosed code which seeps, wakes up on pressing 
 I’ve not yet played with the Bluetooth (Beyond simple debugging) the 4G, GPS or accelerometer. But the external peripherals are all disabled until you power them up by setting their control pins low. 
 
 I have an incomplete map of how things are connected too.
+
+See the code in action:
+
+https://youtu.be/dOF5OYbdcFc
